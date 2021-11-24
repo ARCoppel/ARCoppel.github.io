@@ -10,7 +10,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 10px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -20,7 +20,7 @@
   background-color: white;
   color: black;
   border: 1px solid #006fb9;
-  border-radius:22px;
+  border-radius:80px;
 }
 
 .button1:hover {
@@ -83,7 +83,7 @@
                   ios-src="./Vento Rocketman.usdz"
                   shadow-intensity="1"
                   id="transform"
-                  ar ar-scale="auto"
+                  ar ar-scale="fixed"
                   camera-controls disable-zoom
                   ar ar-placement="floor" 
                   auto-rotate ar>
@@ -114,8 +114,9 @@
             <ul><button type="button" onclick="switchSrc(this,'moto1')"> <img src="518915.PNG" height ="48" width="60" /></button></ul>
             <ul><button type="button" onclick="switchSrc(this,'moto1')"> <img src="513468.PNG" height ="48" width="60" /></button></ul>
             <ul><button type="button" onclick="switchSrc(this,'Vento Rocketman')"> <img src="593192.PNG" height ="48" width="60" /></button></ul>
-            <ul><button class="button button1" onClick="window.location.reload();">Refresh page</button></ul>
-            <ul><button class="button button1" onClick="javascript:abrir()">Caracteristicas</button></ul>          
+            <ul><button class="button button1" onClick="window.location.reload();">Refresca página</button></ul>
+            <ul><button class="button button1" onClick="javascript:abrir()">Caracteristicas</button></ul>            
+            <!-- <ul><a href="javascript:abrir()"> Caracteristicas </a></ul> -->
         </li>
       </div>
                
@@ -130,7 +131,6 @@
           <p>Capacidad de tanque: 12 litros</p>
           <p>Suspensión trasera: monoshock</p>
        </div>
-
       -->
   
         </model-viewer>
@@ -147,7 +147,6 @@
     function cerrar(){
       document.getElementById("vent").style.display="none";
     }
-    
     
   </script>
     
@@ -270,9 +269,9 @@ return unescape(document.cookie.substring(offset, endstr));
 <body>
 <script LANGUAGE="JavaScript">
 <!-- Begin
-document.write("You are here for <b>" + amt() + " times.")
+<!--document.write("You are here for <b>" + amt() + " times.")-->
 // End -->
 </script>
-<input type="button" onclick="DeleteCookie('count')" value="Reset Cookies"/>
+<!--<input type="button" onclick="DeleteCookie('count')" value="Reset Cookies"/>-->
 </body>
 </html>
