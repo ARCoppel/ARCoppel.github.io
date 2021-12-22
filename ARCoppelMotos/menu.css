@@ -72,7 +72,7 @@ main .storm{
 
 main .rocketman{
   width: 220px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 main .pulsar{
@@ -82,7 +82,7 @@ main .pulsar{
 
 main .screamer{
   width: 220px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 h1{
@@ -126,7 +126,7 @@ section .instruccion{
 
 main .botonprod{
   margin-top: 1%;
-  float: center;
+  justify-content: center;
   /*margin-right: 32.5%;*/
   /*margin-right: 15%;*/
   width: 300px;
