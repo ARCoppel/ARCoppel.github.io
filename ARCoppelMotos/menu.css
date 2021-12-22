@@ -126,7 +126,7 @@ section .instruccion{
 
 main .botonprod{
   margin-top: 1%;
-  float: right;
+  float: center;
   margin-right: 32.5%;
   /*margin-right: 15%;*/
   width: 300px;
