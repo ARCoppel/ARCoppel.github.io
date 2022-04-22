@@ -115,14 +115,14 @@ main .botonenc{
 main .botonprod{
   margin-top: 0.5%;
   float: left;
-  margin-left: 10%;
+  margin-left: 15%;
   width: 160px;
 }
 
 main .botonreg{
   margin-top: 1%;
   float: left;
-  margin-left: 10%;
+  margin-left: 15%;
   width: 160px;
 }
  
@@ -130,7 +130,7 @@ p{
     text-align: center;
     font-family: Circular-Std-Book,sans-serif;
     font-size: 12px;
-    margin-top: 4%;
+    margin-top: 4.5%;
     margin-left: 5px;
     margin-right: 5px;
   }
