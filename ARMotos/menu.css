@@ -67,7 +67,7 @@ main .container1{
 
 main .storm{
   width: 220px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 main .rocketman{
@@ -81,7 +81,7 @@ main .pulsar{
 }
 
 main .screamer{
-  width: 245px;
+  width: 220px;
   margin-left: 30px;
 }
 
@@ -128,7 +128,7 @@ main .botonprod{
   margin-top: 1%;
   float: right;
   /*margin-right: 32.5%;*/
-  margin-right: 6%;
+  margin-right: 6.5%;
   width: 170px;
 }
 
